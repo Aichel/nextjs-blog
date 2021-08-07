@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'chacra-icon';
+  src:  url('../fonts/chacra-icon.eot?7yso6v');
+  src:  url('../fonts/chacra-icon.eot?7yso6v#iefix') format('embedded-opentype'),
+    url('../fonts/chacra-icon.ttf?7yso6v') format('truetype'),
+    url('../fonts/chacra-icon.woff?7yso6v') format('woff'),
+    url('../fonts/chacra-icon.svg?7yso6v#chacra-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="chacra-icon-"], [class*=" chacra-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'chacra-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.chacra-icon-right:before {
+  content: "\e900";
+}
+.chacra-icon-left:before {
+  content: "\e901";
+}
+.chacra-icon-smartphone-2:before {
+  content: "\e902";
+}
+.chacra-icon-smartphone-1:before {
+  content: "\e903";
+}
+.chacra-icon-smartphone:before {
+  content: "\e904";
+}
